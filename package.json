@@ -1,0 +1,22 @@
+{
+	"name": "vncal",
+	"description": "functionalities for vietnamese calendar (lunar calendar)",
+	"keywords": ["vncal"],
+	"author": "Nguyen Van Nhu",
+	"homepage": "https://github.com/vanng822/vncal",
+	"contributors": [],
+	"dependencies": ["amlich"],
+	"devDependencies": ["vows"],
+	"main": "./index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/vanng822/vncal.git"
+	},
+	"scripts": {
+		"test": "vows --v --spec tests/test_*.js"
+	},
+	"bugs": {
+		"url": "https://github.com/vanng822/vncal/issues"
+	},
+	"version": "0.0.1"
+}
